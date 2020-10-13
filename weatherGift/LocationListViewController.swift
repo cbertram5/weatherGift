@@ -35,7 +35,7 @@ class LocationListViewController: UIViewController {
         let autocompleteController = GMSAutocompleteViewController()
         autocompleteController.delegate = self
 
-        // Display the autocomplete view controller.
+        // Display the autocomplete view controller
         present(autocompleteController, animated: true, completion: nil)
     }
     
